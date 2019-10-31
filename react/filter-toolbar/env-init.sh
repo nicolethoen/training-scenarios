@@ -2,6 +2,8 @@ curl -L https://raw.githubusercontent.com/patternfly/training-scenarios/master/r
 tar -xvzf ~/pf-express.tar.gz -C ~/tutorial
 cd ~/tutorial
 npm install
+npm install @patternfly/react-core
+npm install @patternfly/react-table
 export CHOKIDAR_USEPOLLING=true
 mkdir ~/tutorial/src/components
 curl -L https://raw.githubusercontent.com/patternfly/training-scenarios/master/react/filter-toolbar/assets/checkboxSelect.js > ~/tutorial/src/components/checkboxSelect.js

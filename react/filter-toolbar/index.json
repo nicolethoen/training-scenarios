@@ -14,7 +14,7 @@
         "text": "step1.md"
       },
       {
-        "title": "Content Rows",
+        "title": "Adding Content Rows",
         "text": "step2.md"
       },
       {
@@ -41,16 +41,16 @@
     "assets": {
       "client": [
         {
-          "file": "checkboxSelect.js", "target": "~/tutorial/assets/", "chmod": "+r"
+          "file": "checkboxSelect.js", "target": "~/tutorial/src/components/", "chmod": "+r"
         },
         {
-          "file": "input.js", "target": "~/tutorial/assets/", "chmod": "+r"
+          "file": "input.js", "target": "~/tutorial/src/components/", "chmod": "+r"
         },
         {
-          "file": "kebab.js", "target": "~/tutorial/assets/", "chmod": "+r"
+          "file": "kebab.js", "target": "~/tutorial/src/components/", "chmod": "+r"
         },
         {
-          "file": "table.js", "target": "~/tutorial/assets/", "chmod": "+r"
+          "file": "table.js", "target": "~/tutorial/src/components/", "chmod": "+r"
         }
       ]
     },

@@ -11,7 +11,6 @@ Next, we'll set up the general structure of an empty toolbar and add the necessa
 import React from &quot;react&quot;;
 import ReactDOM from &quot;react-dom&quot;;
 import &quot;@patternfly/react-core/dist/styles/base.css&quot;;
-import &quot;./app.css&quot;;
 import { Button, Badge } from &quot;@patternfly/react-core&quot;;
 import {
   EditIcon,
@@ -40,7 +39,7 @@ class ToolbarDemoApp extends React.Component {
   render() {
       return (
         &lt;DataToolbar id=&quot;tutorial-toolbar&quot;&gt;
-          
+          Toolbar Demo
         &lt;/DataToolbar&gt;
       );
    }
